@@ -16,6 +16,11 @@
 		FDEF7FDA1EBD9C3D004CAEA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEF7FD81EBD9C3D004CAEA1 /* LaunchScreen.storyboard */; };
 		FDEF7FE51EBD9C3D004CAEA1 /* SolarSystemAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF7FE41EBD9C3D004CAEA1 /* SolarSystemAnimationTests.m */; };
 		FDEF7FF01EBD9C3D004CAEA1 /* SolarSystemAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF7FEF1EBD9C3D004CAEA1 /* SolarSystemAnimationUITests.m */; };
+		FDEF80031EBD9CB7004CAEA1 /* QuickControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF80001EBD9CB7004CAEA1 /* QuickControl.m */; };
+		FDEF80041EBD9CB7004CAEA1 /* UIView+UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF80021EBD9CB7004CAEA1 /* UIView+UIViewExt.m */; };
+		FDEF800D1EBD9E2B004CAEA1 /* SunImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF800C1EBD9E2B004CAEA1 /* SunImageView.m */; };
+		FDEF80101EBDA2B7004CAEA1 /* SolarSystemView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF800F1EBDA2B7004CAEA1 /* SolarSystemView.m */; };
+		FDEF80131EBDB9FC004CAEA1 /* StarImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEF80121EBDB9FC004CAEA1 /* StarImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,17 @@
 		FDEF7FEB1EBD9C3D004CAEA1 /* SolarSystemAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolarSystemAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDEF7FEF1EBD9C3D004CAEA1 /* SolarSystemAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SolarSystemAnimationUITests.m; sourceTree = "<group>"; };
 		FDEF7FF11EBD9C3D004CAEA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEF7FFF1EBD9CB7004CAEA1 /* QuickControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickControl.h; sourceTree = "<group>"; };
+		FDEF80001EBD9CB7004CAEA1 /* QuickControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickControl.m; sourceTree = "<group>"; };
+		FDEF80011EBD9CB7004CAEA1 /* UIView+UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewExt.h"; sourceTree = "<group>"; };
+		FDEF80021EBD9CB7004CAEA1 /* UIView+UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewExt.m"; sourceTree = "<group>"; };
+		FDEF80061EBD9CDA004CAEA1 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FDEF800B1EBD9E2B004CAEA1 /* SunImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunImageView.h; sourceTree = "<group>"; };
+		FDEF800C1EBD9E2B004CAEA1 /* SunImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunImageView.m; sourceTree = "<group>"; };
+		FDEF800E1EBDA2B7004CAEA1 /* SolarSystemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolarSystemView.h; sourceTree = "<group>"; };
+		FDEF800F1EBDA2B7004CAEA1 /* SolarSystemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolarSystemView.m; sourceTree = "<group>"; };
+		FDEF80111EBDB9FC004CAEA1 /* StarImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarImageView.h; sourceTree = "<group>"; };
+		FDEF80121EBDB9FC004CAEA1 /* StarImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,9 @@
 		FDEF7FC61EBD9C3D004CAEA1 /* SolarSystemAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				FDEF80071EBD9D32004CAEA1 /* Views */,
+				FDEF80051EBD9CDA004CAEA1 /* BaseInfo */,
+				FDEF7FFE1EBD9C9F004CAEA1 /* Factory */,
 				FDEF7FCA1EBD9C3D004CAEA1 /* AppDelegate.h */,
 				FDEF7FCB1EBD9C3D004CAEA1 /* AppDelegate.m */,
 				FDEF7FCD1EBD9C3D004CAEA1 /* ViewController.h */,
@@ -141,6 +160,38 @@
 				FDEF7FF11EBD9C3D004CAEA1 /* Info.plist */,
 			);
 			path = SolarSystemAnimationUITests;
+			sourceTree = "<group>";
+		};
+		FDEF7FFE1EBD9C9F004CAEA1 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				FDEF7FFF1EBD9CB7004CAEA1 /* QuickControl.h */,
+				FDEF80001EBD9CB7004CAEA1 /* QuickControl.m */,
+				FDEF80011EBD9CB7004CAEA1 /* UIView+UIViewExt.h */,
+				FDEF80021EBD9CB7004CAEA1 /* UIView+UIViewExt.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		FDEF80051EBD9CDA004CAEA1 /* BaseInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FDEF80061EBD9CDA004CAEA1 /* PrefixHeader.pch */,
+			);
+			path = BaseInfo;
+			sourceTree = "<group>";
+		};
+		FDEF80071EBD9D32004CAEA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDEF800B1EBD9E2B004CAEA1 /* SunImageView.h */,
+				FDEF800C1EBD9E2B004CAEA1 /* SunImageView.m */,
+				FDEF800E1EBDA2B7004CAEA1 /* SolarSystemView.h */,
+				FDEF800F1EBDA2B7004CAEA1 /* SolarSystemView.m */,
+				FDEF80111EBDB9FC004CAEA1 /* StarImageView.h */,
+				FDEF80121EBDB9FC004CAEA1 /* StarImageView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,8 +331,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDEF7FCF1EBD9C3D004CAEA1 /* ViewController.m in Sources */,
+				FDEF80041EBD9CB7004CAEA1 /* UIView+UIViewExt.m in Sources */,
 				FDEF7FD51EBD9C3D004CAEA1 /* SolarSystemAnimation.xcdatamodeld in Sources */,
+				FDEF80031EBD9CB7004CAEA1 /* QuickControl.m in Sources */,
+				FDEF80131EBDB9FC004CAEA1 /* StarImageView.m in Sources */,
 				FDEF7FCC1EBD9C3D004CAEA1 /* AppDelegate.m in Sources */,
+				FDEF80101EBDA2B7004CAEA1 /* SolarSystemView.m in Sources */,
+				FDEF800D1EBD9E2B004CAEA1 /* SunImageView.m in Sources */,
 				FDEF7FC91EBD9C3D004CAEA1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +488,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 77PKH79P84;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SolarSystemAnimation/BaseInfo/PrefixHeader.pch";
 				INFOPLIST_FILE = SolarSystemAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jiangningtao.SolarSystemAnimation;
@@ -444,6 +502,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 77PKH79P84;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SolarSystemAnimation/BaseInfo/PrefixHeader.pch";
 				INFOPLIST_FILE = SolarSystemAnimation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jiangningtao.SolarSystemAnimation;
@@ -520,6 +580,7 @@
 				FDEF7FF61EBD9C3D004CAEA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDEF7FF71EBD9C3D004CAEA1 /* Build configuration list for PBXNativeTarget "SolarSystemAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +589,7 @@
 				FDEF7FF91EBD9C3D004CAEA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDEF7FFA1EBD9C3D004CAEA1 /* Build configuration list for PBXNativeTarget "SolarSystemAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +598,7 @@
 				FDEF7FFC1EBD9C3D004CAEA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
